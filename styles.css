@@ -1,0 +1,112 @@
+css
+/* Reset some default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    font-family: Arial, sans-serif;background-color: #f0f8ff;
+}
+
+/* Header */
+header {
+    background-color: #0077cc;
+    padding: 15px;
+    color: white;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul li {
+    margin-left: 20px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Main Section */
+.main {
+    text-align: center;
+    padding: 40px 0;
+}
+
+h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.search-bar input {
+    padding: 10px;
+    margin: 10px;
+    border: 1px solid #ccc;
+}
+
+.search-bar button {
+    padding: 10px 20px;
+    background-color: #0077cc;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+/* Specialists Section */
+.specialists {
+    text-align: center;
+    background-color: #ffffff;
+    padding: 40px 0;
+}
+
+.specialists-container {
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+}
+
+.specialist-card {
+    background-color: #e0f7fa;
+    padding: 20px;
+    border-radius: 10px;
+    width: 200px;
+    text-align: center;
+}
+
+.specialist-card h3 {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+/* Reviews Section */
+.reviews {
+    text-align: center;
+    padding: 40px 0;
+    background-color: #f1f1f1;
+}
+
+.review {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;width: 300px;
+    margin: 10px auto;
+}
+
+.review p {
+    margin: 5px 0;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background-color: #0077cc;
+    color: white;
+    padding: 15px;
+}
